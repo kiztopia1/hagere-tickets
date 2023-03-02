@@ -7,9 +7,9 @@ export default function Nav() {
       <img src="logo.svg" alt="Hagere tickets" />
       <div className="list">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/login">login</Link>
         <Link to="/tickets">Tickets</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/seller">seller</Link>
       </div>
     </div>
   );
