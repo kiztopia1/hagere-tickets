@@ -23,6 +23,8 @@ label {
 }
 
 input[type="text"],
+input[type="number"],
+input[type="date"],
 input[type="password"] {
   display: block;
   width: 90%;
@@ -39,8 +41,17 @@ button[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 button[type="submit"]:hover {
   background-color: #555555;
+}
+textarea {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }

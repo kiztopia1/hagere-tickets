@@ -4,7 +4,7 @@ import DashboardSide from "../components/dashboardSideNav";
 import NoOfSales from "../components/noOfSales";
 export default function SellerPage() {
   return (
-    <div className="flex">
+    <div className="seller-page flex">
       <DashboardSide />
       <div className="main">
         <NoOfSales />

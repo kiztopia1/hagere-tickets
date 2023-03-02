@@ -29,24 +29,28 @@ export default function dashboardSideNav() {
       <ul>
         <li>
           <FontAwesomeIcon icon={faDesktop} />
-          <a href="/users">Dashboard</a>
+          <a href="/">Dashboard</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faUser} />
-          <a href="/users">My Profile</a>
+          <a href="/">My Profile</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faCalendarDays} />
-          <a href="/users">Events</a>
+          <a href="/">Events</a>
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faCalendarDays} />
+          <a href="/newEvent">Add New Event</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faChartLine} />
-          <a href="/users">Analytics</a>
+          <a href="/">Analytics</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faHandshakeAlt} />
 
-          <a href="/users">Affiliate</a>
+          <a href="/">Affiliate</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faTicket} />

@@ -45,3 +45,18 @@
 .flex {
   display: flex;
 }
+.dashboard-form-container {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  padding: 10px 30px;
+}
+
+.dashboard-form-container .div {
+  max-width: 400px;
+}
+
+.dashboard-form-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

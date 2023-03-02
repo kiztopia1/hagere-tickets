@@ -6,7 +6,12 @@ export default function Login() {
       <h2>Login</h2>
       <form action="" className="form">
         <label for="username">Username:</label>
-        <input type="text" name="input" id="" placeholder="jeo@gmail.com" />
+        <input
+          type="text"
+          name="input"
+          id="username"
+          placeholder="jeo@gmail.com"
+        />
         <label for="password">Password:</label>
         <input
           type="password"
