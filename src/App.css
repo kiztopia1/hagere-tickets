@@ -38,3 +38,10 @@
     transform: translateY(0px);
   }
 }
+.main {
+  padding: 20px;
+  padding-left: 300px;
+}
+.flex {
+  display: flex;
+}

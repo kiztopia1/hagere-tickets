@@ -6,6 +6,7 @@ export default function SignUpPage() {
   return (
     <div>
       <Nav />
+
       <SignUp />
     </div>
   );
