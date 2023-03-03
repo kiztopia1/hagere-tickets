@@ -12,6 +12,7 @@ import {
 import { Line } from "react-chartjs-2";
 import { faker } from "@faker-js/faker";
 import "./noOfSales.css";
+let date = new Date();
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -30,12 +31,20 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Chart.js Line Chart",
+      text: "Number of sales this week ",
     },
   },
 };
 
-const labels = ["January", "February", "March", "April", "May", "June", "July"];
+const labels = [
+  "25 Feb 2023",
+  "26 Feb 2023",
+  "27 Feb 2023",
+  "28 Feb 2023",
+  "03 Mar 2023",
+  "03 Mar 2023",
+  "03 Mar 2023",
+];
 
 export const data = {
   labels,
