@@ -1,0 +1,49 @@
+.detail-container {
+  display: flex;
+  margin-top: 30px;
+  color: #1e0a3c;
+}
+.event-detail {
+  margin-top: 5px;
+  text-align: left;
+  padding: 10px 60px;
+}
+.event-detail .img-container {
+  display: flex;
+  justify-content: center;
+}
+.event-detail .details {
+  width: 70%;
+}
+.event-detail .side {
+  width: 30%;
+  margin: 10px 50px;
+}
+.event-detail .title {
+  margin-right: 50px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.event-detail .side .notice {
+  text-align: center;
+  width: 220px;
+  background: #eeeafb;
+  color: #7e5ee1;
+  border-radius: 40px;
+
+  padding: 1px 30px;
+}
+.event-detail .side hr {
+  margin: 17px;
+}
+.event-detail .side .price {
+  margin: 10px;
+  text-align: center;
+}
+.event-detail .side .call-to-action {
+  background-color: #f05537;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}

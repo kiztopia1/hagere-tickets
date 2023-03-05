@@ -1,0 +1,29 @@
+.events .event {
+  width: 23%;
+  max-width: 300px;
+  margin: 0px 1%;
+  margin-bottom: 50px;
+}
+.events .event .details {
+  padding: 20px;
+}
+.events .event .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.events .event .date {
+  color: #d7592b;
+  font-weight: bold;
+  padding: 2px 2px 6px 2px;
+  font-size: 0.8rem;
+}
+.events .event .price {
+  color: rgb(97, 96, 96);
+  font-size: 0.8rem;
+  padding: 4px 0px;
+}
+
+.events .event:hover {
+  box-shadow: 0px 10px 20px 0px rgba(155, 150, 150, 0.863);
+  border-radius: 10px;
+}

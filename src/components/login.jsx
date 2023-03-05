@@ -3,7 +3,6 @@ import "./login.css";
 export default function Login() {
   return (
     <div className="form-container">
-      <h2>Login</h2>
       <form action="" className="form">
         <label for="username">Username:</label>
         <input
@@ -21,6 +20,7 @@ export default function Login() {
         />
         <button type="submit">Login</button>
       </form>
+      <a href="/signUp">create new account </a>
     </div>
   );
 }

@@ -8,6 +8,8 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import SellerPage from "./pages/SellerPage";
 import AddEventPage from "./pages/AddEventPage";
+import EventPage from "./pages/EventPage";
+import BrowseEventsPage from "./pages/BrowseEventsPage";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="signup" element={<SignUpPage />} />
         <Route path="seller" element={<SellerPage />} />
         <Route path="newEvent" element={<AddEventPage />} />
+        <Route path="event" element={<EventPage />} />
+        <Route path="browse-events" element={<BrowseEventsPage />} />
       </Routes>
     </div>
   );

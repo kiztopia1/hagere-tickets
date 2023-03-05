@@ -8,8 +8,8 @@ export default function Nav() {
       <div className="list">
         <Link to="/">Home</Link>
         <Link to="/login">login</Link>
-        <Link to="/tickets">Tickets</Link>
-        <Link to="/seller">seller</Link>
+        <Link to="/browse-events">Events</Link>
+        <Link to="/seller">Create Event</Link>
       </div>
     </div>
   );
