@@ -2,7 +2,7 @@ import React from "react";
 import "./Event.css";
 export default function Event({ imgLink }) {
   return (
-    <a href="./" className="event">
+    <a href="./event" className="event">
       <img src={imgLink} alt="" />
       <div className="details">
         <h3 className="title">
