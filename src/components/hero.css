@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #208de9;
+}
+.hero img {
+  height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero img {
+    height: 250px;
+  }
+}

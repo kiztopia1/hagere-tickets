@@ -1,9 +1,15 @@
 .events-container {
-  margin: 20px 0;
+  margin: 20px 5%;
 }
 .events-container .header {
   font-size: 1.4rem;
   text-align: left;
   margin: 10px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .events-container {
+    margin: 20px 0;
+  }
 }
