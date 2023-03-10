@@ -16,3 +16,37 @@
   margin: 0 30px;
   justify-content: center;
 }
+.nav .icon {
+  font-size: 1.5rem;
+  margin-top: 9px;
+
+  display: none !important;
+}
+.active {
+  display: inherit !important;
+  position: relative;
+}
+
+.active .list {
+  display: flex !important;
+  width: 200px;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 40px;
+  right: -10px;
+  background-color: rgba(60, 69, 70, 0.774);
+}
+.active .list a {
+  width: 100%;
+  margin: 14px 0;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .nav .list {
+    display: none;
+  }
+  .nav .icon {
+    display: inline-block !important;
+  }
+}

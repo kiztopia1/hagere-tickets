@@ -1,16 +1,9 @@
-/* .events-container {
-  margin: 50px 0;
+.events-container {
+  margin: 20px 0;
 }
 .events-container .header {
   font-size: 1.4rem;
   text-align: left;
-  margin: 10px 60px;
+  margin: 10px;
   font-weight: bold;
 }
-
-.events {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
-  margin: 0 50px;
-} */
